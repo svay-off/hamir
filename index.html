@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./src/assets/images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <title>hamir</title>
+  </head>
+  <body>
+    <div id="main">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <a class="header__logo logo" href="index.html">
+              <img src="./src/assets/images/logo.png" alt="logo" />
+            </a>
+
+            <nav class="header__nav">
+              <ul class="header__list">
+                <li class="header__item">
+                  <a class="header__link" href="/index.html"> Головна </a>
+                </li>
+                <li class="header__item">
+                  <a class="header__link" href="#about.html"> Про нас </a>
+                </li>
+                <li class="header__item">
+                  <a class="header__link" href="#specialists"> Спеціалісти </a>
+                </li>
+                <li class="header__item">
+                  <a class="header__link" href="#faq"> FAQ </a>
+                </li>
+                <li class="header__item">
+                  <a class="header__link" href="#contacts"> Контакти </a>
+                </li>
+              </ul>
+
+              <button class="header__signin" type="button" aria-label="Увійти">
+                Увійти
+              </button>
+
+              <button
+                class="header__btn"
+                type="button"
+                aria-label="Відкрити меню"
+                style="display: none">
+                <span></span>
+              </button>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <section
+        class="hero"
+        style="background-image: url(./src/assets/images/target-bg.jpg)">
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__info">
+              <h1 class="hero__title">Ти не один у своїх переживаннях</h1>
+              <p class="hero__subtitle">
+                Отримай професійну психологічну підтримку та зроби перший крок
+                до внутрішнього спокою вже сьогодні.
+              </p>
+              <button class="hero__button" type="button">
+                Звернутися за допомогою
+              </button>
+            </div>
+            <img
+              class="hero__image"
+              src="./src/assets/images/ilustration.jpg"
+              alt="health" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer"></footer>
+    <script type="module" src="/src/scripts/main.ts"></script>
+  </body>
+</html>

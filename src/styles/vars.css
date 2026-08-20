@@ -1,0 +1,11 @@
+:root {
+  /* fonts */
+  --font-main: "Google Sans", sans-serif;
+
+  /* colors */
+  --color-blue: #477682ff;
+  --color-red: #ff0000ff;
+  --color-cream: #fdf5e8;
+  --color-grey: rgb(4, 5, 5);
+  --color-text: rgb(11, 30, 43);
+}
